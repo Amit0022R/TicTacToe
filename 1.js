@@ -31,7 +31,7 @@ function handleClick(el) {
     arr[id] = currentPlayer;
     el.innerText = currentPlayer;
     checkWinner(); // check after every koi jita toh nhi
-    currentPlayer = currentPlayer == 'X' ? 'O' : 'X'; 
+    currentPlayer = currentPlayer == 'X' ? 'O' : 'X'; // if phle se X hai toh O ayega and vice versa 
 
 }
 
